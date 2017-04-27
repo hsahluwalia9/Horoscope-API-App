@@ -8,4 +8,5 @@
     <author href="https://hsahluwalia9.github.io">
         Harsimar Ahluwalia
     </author>
+    <access origin="*"/>
 </widget>
