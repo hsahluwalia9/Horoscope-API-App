@@ -1,8 +1,7 @@
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady(){  
+$( document ).ready(function() {
 $('input').click(function () {
-    /*
+     /*
 $.getJSON('http://horoscope-api.herokuapp.com/horoscope/today/'+this.id+'?callback=?', function (data) {
       var dailyHoroscope = data.horoscope;
       var dateToday = data.date;
@@ -28,5 +27,5 @@ $.getJSON('http://horoscope-api.herokuapp.com/horoscope/today/'+this.id+'?callba
         $("#horoscope").html(dailyHoroscope);
       }
     });
-  });
-}
+});
+});
